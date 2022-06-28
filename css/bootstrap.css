@@ -1435,7 +1435,7 @@ img {
 .img-responsive,
 .thumbnail a>img,
 .thumbnail>img {
-    display: block;
+    /* display: block; */
     max-width: 100%;
     height: auto
 }
@@ -2066,7 +2066,8 @@ pre code {
     position: relative;
     min-height: 1px;
     padding-right: 15px;
-    padding-left: 15px
+    padding-left: 15px;
+    padding-top: 20px
 }
 
 .col-xs-1,

@@ -23,7 +23,6 @@ a:hover {
     text-decoration: none;
     cursor: pointer;
 }
-
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -305,6 +304,10 @@ header {
 .row.row-no-gutters > [class*=" col-"] {
     padding-right: 0;
     padding-left: 0;
+}
+.col-sm-3 {
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 #bloc-1-hero h1 {
@@ -740,6 +743,7 @@ h2 {
 
 p {
     font-size: 11px;
+    z-index:1;
 }
 
 .tight-width-whitespace {
@@ -763,9 +767,8 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin-bottom:20px;
 }
-
 h2 {
     font-size: 22px;
     line-height: 1.4em;
@@ -792,6 +795,10 @@ q {
     display:flex;
     flex-direction: column;
 }
+/* .portfolio {
+    display:flex;
+    justify-content: flex-start;
+} */
 .med-width-whitespace {
     max-width: 800px;
     margin: auto auto auto auto;
@@ -821,6 +828,9 @@ h4 {
 .portfolio-row {
     margin-bottom: 44px;
     margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .avatar {
@@ -828,7 +838,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(90, 80, 54, 0.7);
     padding: 40px 40px 40px 40px;
 }
 .bold-link {
@@ -847,11 +857,12 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #454242;
 }
 
 .tc-white {
     color: #FFFFFF!important;
+    z-index:1;
 }
 
 .btn-atomic-tangerine {
@@ -903,6 +914,9 @@ h4 {
 .image-resize-mode {
     height:166px;
     width:auto;
+}
+footer p {
+    margin-top:20px;
 }
 @media (max-width: 1024px) {
     .bloc {
@@ -995,6 +1009,7 @@ h4 {
     .b-parallax {
         background-attachment: fixed;
     }
+    
     /* .navbar .nav {
         padding-top: 0;
         border-top: 1px solid rgba(0, 0, 0, .2);
@@ -1064,6 +1079,7 @@ h4 {
     .bloc {
         padding-left: 0;
         padding-right: 0;
+        justify-content: center;
     }
     .bloc-xxl,
     .bloc-xl,
