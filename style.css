@@ -1024,6 +1024,7 @@ form input {
         flex-wrap:wrap;
         display:flex;
         width:50%;
+        justify-content: center;
     }
     h3 {
         font-size:22px;
