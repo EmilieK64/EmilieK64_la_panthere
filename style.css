@@ -488,7 +488,9 @@ header {
         float: none;
         margin: 10px auto 0;
     }
-    
+    .tight-width-whitespace {
+        max-width: 818px;
+    }
 }
 
 .nav > li > .dropdown a {
@@ -782,7 +784,7 @@ p {
 }
 
 .tight-width-whitespace {
-    max-width: 600px;
+    /* max-width: 600px; */
     margin: auto auto auto auto;
 }
 
@@ -803,6 +805,7 @@ p {
 .social {
     max-width: 400px;
     margin-bottom:20px;
+    flex-direction:row;
 }
 h2 {
     font-size: 22px;
@@ -839,7 +842,7 @@ q {
     justify-content: flex-start;
 } */
 .med-width-whitespace {
-    max-width: 800px;
+    /* max-width: 800px; */
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
 }
@@ -1058,11 +1061,8 @@ form input {
     .col-sm-4 {
         width:230px;
     }
-    .
-    .med-width-whitespace {
-        width:1400px;
-    }
 }
+
 @media (max-width: 992px) and (min-width: 768px) {
     .navbar .nav {
         max-width: 80%
@@ -1076,7 +1076,6 @@ form input {
     .b-parallax {
         background-attachment: fixed;
     }
-    
 }
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
@@ -1089,13 +1088,7 @@ form input {
     .col-sm-4 {
         width: 350px !important;
     }
-    .med-width-whitespace {
-        width : 1500px!important;
-        justify-content: space-between;
-    }
-    q {
-        width :500px;
-    }
+    
 }
 
 @media (max-width: 991px) {
@@ -1291,5 +1284,19 @@ form input {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+}
+@media (min-width: 1565px) {
+    .med-width-whitespace { 
+        width: 1400px;
+    } 
+    .text-width {
+        width:450px;
+    }
+    .col-sm-4 {
+        width: 500px;
+    }
+    q {
+        width : 500px;
     }
 }
